@@ -1,0 +1,51 @@
+
+============================================================
+KNN (k=15)
+============================================================
+Test accuracy      : 0.6650
+Training time (s)  : 0.001
+Inference time (s) : 0.0030
+
+Classification report:
+              precision    recall  f1-score   support
+
+       blues       0.78      0.35      0.48        20
+   classical       0.90      0.90      0.90        20
+     country       0.57      0.80      0.67        20
+       disco       0.57      0.60      0.59        20
+      hiphop       0.71      0.50      0.59        20
+        jazz       0.74      0.70      0.72        20
+       metal       0.89      0.80      0.84        20
+         pop       0.59      0.85      0.69        20
+      reggae       0.50      0.50      0.50        20
+        rock       0.59      0.65      0.62        20
+
+    accuracy                           0.67       200
+   macro avg       0.68      0.67      0.66       200
+weighted avg       0.68      0.67      0.66       200
+
+
+============================================================
+Deep Neural Network
+============================================================
+Test accuracy      : 0.7250
+Training time (s)  : 7.887
+Inference time (s) : 0.2014
+
+Classification report:
+              precision    recall  f1-score   support
+
+       blues       0.79      0.55      0.65        20
+   classical       0.87      1.00      0.93        20
+     country       0.55      0.80      0.65        20
+       disco       0.68      0.75      0.71        20
+      hiphop       0.63      0.60      0.62        20
+        jazz       0.85      0.85      0.85        20
+       metal       0.94      0.85      0.89        20
+         pop       0.80      0.80      0.80        20
+      reggae       0.62      0.65      0.63        20
+        rock       0.57      0.40      0.47        20
+
+    accuracy                           0.72       200
+   macro avg       0.73      0.72      0.72       200
+weighted avg       0.73      0.72      0.72       200
